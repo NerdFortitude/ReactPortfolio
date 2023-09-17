@@ -47,7 +47,7 @@ function Option() {
       </button>
 
 
-      <div className={`transition-all flex flex-col items-center gap-10   duration-300 dark:bg-slate-950 absolute top-24 left-0 right-0 bg-slate-300 ${(menuAvailable)?"h-[300px]":"h-[0]"}`}>
+      <div className={`transition-all flex flex-col items-center gap-10 z-10  duration-300 dark:bg-slate-950 absolute top-24  left-0 right-0 bg-slate-300 ${(menuAvailable)?"h-[300px]":"h-[0]"}`}>
 
                     <NavLink
                       to="/"
