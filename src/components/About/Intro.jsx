@@ -1,9 +1,6 @@
 import React, { useRef } from 'react'
 import code from '../../assets/code.png'
-import { projectData } from '../../data'
-import { Link, NavLink } from 'react-router-dom'
-import {skillImage} from '../../skillsData' 
-import { Outlet } from 'react-router-dom'
+
 
 function Intro() {
   return (
