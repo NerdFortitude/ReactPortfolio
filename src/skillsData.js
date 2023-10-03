@@ -5,8 +5,9 @@ import javascript from "./assets/icons8-javascript-240.png"
 import react from "./assets/React-icon.svg.png"
 import git from "./assets/Git-Icon-1788C.png"
 import redux from "./assets/redux.svg"
+import node  from "./assets/nodeLogo.svg"
 
 export const skillImage = [
-    css,html,javascript, react, git, redux
+    css,html,javascript, react, git, redux, node
 
 ]

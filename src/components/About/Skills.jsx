@@ -12,13 +12,13 @@ function Skills() {
       <h2 className='text-orange-500 font-bold text-3xl '>Skills</h2>
       <h2 className='dark:text-white font-bold text-3xl text-violet-500'>What I am capable of?</h2>
 
-      <div className='w-full flex flex-row gap-12 justify-center flex-wrap '>
+      <div className='w-full md:w-[50%] flex flex-row gap-12 justify-center flex-wrap '>
                   {
                           skillImage.map((image)=>{
 
                             return(
                             <div className=''>
-                                    <img src={image} alt="" width="70" height="70"/>  
+                                    <img src={image} alt="" width="100" height="100" />  
                             </div>
                             );
                           })
