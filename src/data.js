@@ -1,6 +1,7 @@
 import project1 from "../src/assets/porject1.png"
 import project2 from "../src/assets/project2.png"
 import project3 from "../src/assets/project3.png"
+import project4 from "../src/assets/project4.png"
 
 export const projectData = [
     {
@@ -22,5 +23,11 @@ export const projectData = [
         title:"Dev Info",
         description:"This project enables users to retrieve details from a developer's GitHub profile by simply providing their username. Furthermore, it offers a dark mode option for enhanced visual comfort and convenience.",
         link:"https://beamish-florentine-dc2fa0.netlify.app/",
+    },
+    {
+        Image:project4,
+        title:"Movix",
+        description:"This project brings you an immersive experience for exploring and discovering all the details about your favorite movies and TV series. With React as our front-end technology and Redux for state management, we ensure a seamless and responsive user interface.",
+        link:"https://movie-app-563m.vercel.app/",
     },
 ]
